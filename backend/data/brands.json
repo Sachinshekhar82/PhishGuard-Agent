@@ -1,0 +1,112 @@
+[
+  {
+    "name": "PayPal",
+    "domains": ["paypal.com", "paypal-communication.com", "paypal.me"],
+    "keywords": ["paypal", "pay-pal"]
+  },
+  {
+    "name": "Apple",
+    "domains": ["apple.com", "icloud.com"],
+    "keywords": ["apple", "icloud", "appleid"]
+  },
+  {
+    "name": "Google",
+    "domains": ["google.com", "gmail.com", "googlemail.com", "youtube.com"],
+    "keywords": ["google", "gmail", "googlemail", "drive-google"]
+  },
+  {
+    "name": "Microsoft",
+    "domains": ["microsoft.com", "live.com", "office.com", "office365.com", "outlook.com", "sharepoint.com", "onedrive.com", "azure.com"],
+    "keywords": ["microsoft", "office365", "outlook", "onedrive", "sharepoint", "azure", "mslive"]
+  },
+  {
+    "name": "Amazon",
+    "domains": ["amazon.com", "amazon.co.uk", "amazon.de", "amazon.fr", "amazon.co.jp", "primevideo.com", "aws.amazon.com"],
+    "keywords": ["amazon", "primevideo", "amazon-security"]
+  },
+  {
+    "name": "Netflix",
+    "domains": ["netflix.com"],
+    "keywords": ["netflix", "netflix-verify"]
+  },
+  {
+    "name": "Facebook / Meta",
+    "domains": ["facebook.com", "fb.com", "meta.com", "messenger.com"],
+    "keywords": ["facebook", "meta-verify", "fb-security", "facebook-support"]
+  },
+  {
+    "name": "Instagram",
+    "domains": ["instagram.com"],
+    "keywords": ["instagram", "ig-verify", "insta-badge"]
+  },
+  {
+    "name": "WhatsApp",
+    "domains": ["whatsapp.com"],
+    "keywords": ["whatsapp", "wa-web", "whatsapp-verify"]
+  },
+  {
+    "name": "Bank of America",
+    "domains": ["bankofamerica.com", "bofa.com"],
+    "keywords": ["bankofamerica", "bofa"]
+  },
+  {
+    "name": "Chase",
+    "domains": ["chase.com", "jpmorganchase.com"],
+    "keywords": ["chase", "chase-online", "jpmorgan"]
+  },
+  {
+    "name": "Wells Fargo",
+    "domains": ["wellsfargo.com"],
+    "keywords": ["wellsfargo", "wf-online"]
+  },
+  {
+    "name": "Citibank",
+    "domains": ["citi.com", "citibank.com"],
+    "keywords": ["citibank", "citi"]
+  },
+  {
+    "name": "DHL",
+    "domains": ["dhl.com", "dhl.de"],
+    "keywords": ["dhl", "dhl-parcel", "dhl-tracking"]
+  },
+  {
+    "name": "FedEx",
+    "domains": ["fedex.com"],
+    "keywords": ["fedex", "fedex-tracking", "fedex-delivery"]
+  },
+  {
+    "name": "USPS",
+    "domains": ["usps.com"],
+    "keywords": ["usps", "usps-tracking", "post-tracking"]
+  },
+  {
+    "name": "Coinbase",
+    "domains": ["coinbase.com"],
+    "keywords": ["coinbase", "coinbase-pro", "coinbase-wallet"]
+  },
+  {
+    "name": "Binance",
+    "domains": ["binance.com"],
+    "keywords": ["binance", "binance-us"]
+  },
+  {
+    "name": "Steam",
+    "domains": ["steampowered.com", "steamcommunity.com"],
+    "keywords": ["steampowered", "steamcommunity", "steam-gift"]
+  },
+  {
+    "name": "LinkedIn",
+    "domains": ["linkedin.com"],
+    "keywords": ["linkedin", "lnkd"]
+  },
+  {
+    "name": "Dropbox",
+    "domains": ["dropbox.com"],
+    "keywords": ["dropbox", "dropbox-share"]
+  },
+  {
+    "name": "DocuSign",
+    "domains": ["docusign.com", "docusign.net"],
+    "keywords": ["docusign", "docusign-docs"]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "auth": [
+    "login", "signin", "sign-in", "log-in", "password", "credential", 
+    "auth", "authenticate", "sso", "2fa", "mfa", "session", "passcode"
+  ],
+  "urgency": [
+    "verify", "verification", "confirm", "confirmation", "update", "upgrade", 
+    "secure", "security", "protect", "suspend", "suspended", "restrict", 
+    "restricted", "locked", "unlock", "validate", "validation", "action-required",
+    "urgent", "alert", "notice", "warning", "immediate"
+  ],
+  "financial": [
+    "bank", "banking", "wallet", "billing", "invoice", "payment", "pay", 
+    "checkout", "creditcard", "card", "transaction", "fund", "funds", 
+    "crypto", "refund", "tax", "wire", "transfer", "statement", "deposit"
+  ],
+  "lure": [
+    "free", "bonus", "prize", "winner", "gift", "giftcard", "reward", 
+    "giveaway", "claim", "airdrop", "promo", "discount", "voucher"
+  ],
+  "service": [
+    "support", "helpdesk", "service", "customer", "portal", "account", 
+    "member", "webmail", "mail", "server", "admin", "client"
+  ]
+}

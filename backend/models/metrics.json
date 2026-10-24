@@ -1,0 +1,540 @@
+{
+  "model_name": "Random Forest",
+  "evaluation_timestamp": "2026-10-24T12:16:26Z",
+  "validation_metrics": {
+    "accuracy": 0.9395,
+    "precision": 0.9608,
+    "recall": 0.8944,
+    "f1": 0.9264,
+    "roc_auc": 0.9783,
+    "confusion_matrix": [
+      [
+        3706,
+        103
+      ],
+      [
+        298,
+        2524
+      ]
+    ]
+  },
+  "test_metrics": {
+    "accuracy": 0.9407,
+    "precision": 0.9789,
+    "recall": 0.9147,
+    "f1": 0.9457,
+    "roc_auc": 0.9809,
+    "confusion_matrix": [
+      [
+        3618,
+        95
+      ],
+      [
+        411,
+        4409
+      ]
+    ]
+  },
+  "slice_metrics": {
+    "domain_only_slice": {
+      "accuracy": 0.916,
+      "precision": 0.948,
+      "recall": 0.7898,
+      "f1": 0.8617,
+      "roc_auc": 0.9545,
+      "confusion_matrix": [
+        [
+          3146,
+          69
+        ],
+        [
+          335,
+          1259
+        ]
+      ],
+      "count": 4809
+    },
+    "full_url_slice": {
+      "accuracy": 0.9726,
+      "precision": 0.9918,
+      "recall": 0.9764,
+      "f1": 0.9841,
+      "roc_auc": 0.995,
+      "confusion_matrix": [
+        [
+          472,
+          26
+        ],
+        [
+          76,
+          3150
+        ]
+      ],
+      "count": 3724
+    }
+  },
+  "roc_curve": [
+    {
+      "fpr": 0.0,
+      "tpr": 0.0
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.5936
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.6444
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.6786
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.7077
+    },
+    {
+      "fpr": 0.0,
+      "tpr": 0.7303
+    },
+    {
+      "fpr": 0.0005,
+      "tpr": 0.7593
+    },
+    {
+      "fpr": 0.0019,
+      "tpr": 0.8407
+    },
+    {
+      "fpr": 0.0051,
+      "tpr": 0.8664
+    },
+    {
+      "fpr": 0.0097,
+      "tpr": 0.8863
+    },
+    {
+      "fpr": 0.0162,
+      "tpr": 0.8994
+    },
+    {
+      "fpr": 0.024,
+      "tpr": 0.9118
+    },
+    {
+      "fpr": 0.0337,
+      "tpr": 0.9224
+    },
+    {
+      "fpr": 0.0434,
+      "tpr": 0.929
+    },
+    {
+      "fpr": 0.0531,
+      "tpr": 0.9342
+    },
+    {
+      "fpr": 0.0654,
+      "tpr": 0.9382
+    },
+    {
+      "fpr": 0.0789,
+      "tpr": 0.944
+    },
+    {
+      "fpr": 0.0975,
+      "tpr": 0.9471
+    },
+    {
+      "fpr": 0.1088,
+      "tpr": 0.9508
+    },
+    {
+      "fpr": 0.1231,
+      "tpr": 0.9552
+    },
+    {
+      "fpr": 0.1422,
+      "tpr": 0.9583
+    },
+    {
+      "fpr": 0.1686,
+      "tpr": 0.962
+    },
+    {
+      "fpr": 0.1872,
+      "tpr": 0.9647
+    },
+    {
+      "fpr": 0.2176,
+      "tpr": 0.9672
+    },
+    {
+      "fpr": 0.2489,
+      "tpr": 0.9699
+    },
+    {
+      "fpr": 0.2723,
+      "tpr": 0.9737
+    },
+    {
+      "fpr": 0.2992,
+      "tpr": 0.9761
+    },
+    {
+      "fpr": 0.327,
+      "tpr": 0.9772
+    },
+    {
+      "fpr": 0.3528,
+      "tpr": 0.9795
+    },
+    {
+      "fpr": 0.3692,
+      "tpr": 0.983
+    },
+    {
+      "fpr": 0.3889,
+      "tpr": 0.9846
+    },
+    {
+      "fpr": 0.4193,
+      "tpr": 0.9853
+    },
+    {
+      "fpr": 0.4541,
+      "tpr": 0.9871
+    },
+    {
+      "fpr": 0.477,
+      "tpr": 0.99
+    },
+    {
+      "fpr": 0.5088,
+      "tpr": 0.9913
+    },
+    {
+      "fpr": 0.53,
+      "tpr": 0.9936
+    },
+    {
+      "fpr": 0.5583,
+      "tpr": 0.994
+    },
+    {
+      "fpr": 0.5914,
+      "tpr": 0.9956
+    },
+    {
+      "fpr": 0.6192,
+      "tpr": 0.9967
+    },
+    {
+      "fpr": 0.6442,
+      "tpr": 0.9975
+    },
+    {
+      "fpr": 0.6709,
+      "tpr": 0.9979
+    },
+    {
+      "fpr": 0.6997,
+      "tpr": 0.9985
+    },
+    {
+      "fpr": 0.7239,
+      "tpr": 0.9985
+    },
+    {
+      "fpr": 0.7482,
+      "tpr": 0.9988
+    },
+    {
+      "fpr": 0.7703,
+      "tpr": 0.9994
+    },
+    {
+      "fpr": 0.8034,
+      "tpr": 0.9994
+    },
+    {
+      "fpr": 0.8408,
+      "tpr": 0.9994
+    },
+    {
+      "fpr": 0.8753,
+      "tpr": 0.9994
+    },
+    {
+      "fpr": 0.9044,
+      "tpr": 0.9996
+    },
+    {
+      "fpr": 0.9402,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 0.9663,
+      "tpr": 1.0
+    },
+    {
+      "fpr": 1.0,
+      "tpr": 1.0
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature": "url_length",
+      "importance": 0.1715
+    },
+    {
+      "feature": "path_length",
+      "importance": 0.1293
+    },
+    {
+      "feature": "url_entropy",
+      "importance": 0.1093
+    },
+    {
+      "feature": "digit_ratio",
+      "importance": 0.0811
+    },
+    {
+      "feature": "digit_count",
+      "importance": 0.076
+    },
+    {
+      "feature": "has_https",
+      "importance": 0.0701
+    },
+    {
+      "feature": "num_slashes_path",
+      "importance": 0.0568
+    },
+    {
+      "feature": "special_char_count",
+      "importance": 0.0372
+    },
+    {
+      "feature": "hostname_entropy",
+      "importance": 0.0371
+    },
+    {
+      "feature": "is_suspicious_tld",
+      "importance": 0.0329
+    },
+    {
+      "feature": "hostname_length",
+      "importance": 0.031
+    },
+    {
+      "feature": "special_char_ratio",
+      "importance": 0.0266
+    },
+    {
+      "feature": "num_hyphens",
+      "importance": 0.0228
+    },
+    {
+      "feature": "num_dots",
+      "importance": 0.0212
+    },
+    {
+      "feature": "subdomain_count",
+      "importance": 0.0173
+    }
+  ],
+  "all_feature_importances": [
+    {
+      "feature": "url_length",
+      "importance": 0.1715
+    },
+    {
+      "feature": "path_length",
+      "importance": 0.1293
+    },
+    {
+      "feature": "url_entropy",
+      "importance": 0.1093
+    },
+    {
+      "feature": "digit_ratio",
+      "importance": 0.0811
+    },
+    {
+      "feature": "digit_count",
+      "importance": 0.076
+    },
+    {
+      "feature": "has_https",
+      "importance": 0.0701
+    },
+    {
+      "feature": "num_slashes_path",
+      "importance": 0.0568
+    },
+    {
+      "feature": "special_char_count",
+      "importance": 0.0372
+    },
+    {
+      "feature": "hostname_entropy",
+      "importance": 0.0371
+    },
+    {
+      "feature": "is_suspicious_tld",
+      "importance": 0.0329
+    },
+    {
+      "feature": "hostname_length",
+      "importance": 0.031
+    },
+    {
+      "feature": "special_char_ratio",
+      "importance": 0.0266
+    },
+    {
+      "feature": "num_hyphens",
+      "importance": 0.0228
+    },
+    {
+      "feature": "num_dots",
+      "importance": 0.0212
+    },
+    {
+      "feature": "subdomain_count",
+      "importance": 0.0173
+    },
+    {
+      "feature": "num_hyphens_host",
+      "importance": 0.0154
+    },
+    {
+      "feature": "total_suspicious_keywords",
+      "importance": 0.0146
+    },
+    {
+      "feature": "keyword_in_subdomain",
+      "importance": 0.0112
+    },
+    {
+      "feature": "num_dots_host",
+      "importance": 0.0094
+    },
+    {
+      "feature": "brand_in_subdomain_or_path",
+      "importance": 0.0053
+    },
+    {
+      "feature": "homoglyph_detected",
+      "importance": 0.0046
+    },
+    {
+      "feature": "query_length",
+      "importance": 0.004
+    },
+    {
+      "feature": "count_urgency_keywords",
+      "importance": 0.004
+    },
+    {
+      "feature": "count_service_keywords",
+      "importance": 0.0033
+    },
+    {
+      "feature": "keyword_in_path",
+      "importance": 0.0027
+    },
+    {
+      "feature": "count_auth_keywords",
+      "importance": 0.0019
+    },
+    {
+      "feature": "count_financial_keywords",
+      "importance": 0.0015
+    },
+    {
+      "feature": "count_lure_keywords",
+      "importance": 0.0005
+    },
+    {
+      "feature": "num_underscores",
+      "importance": 0.0004
+    },
+    {
+      "feature": "brand_typosquat_detected",
+      "importance": 0.0004
+    },
+    {
+      "feature": "is_shortener",
+      "importance": 0.0003
+    },
+    {
+      "feature": "has_at_symbol",
+      "importance": 0.0001
+    },
+    {
+      "feature": "has_unusual_chars",
+      "importance": 0.0001
+    },
+    {
+      "feature": "is_ip_host",
+      "importance": 0.0001
+    },
+    {
+      "feature": "has_port",
+      "importance": 0.0001
+    },
+    {
+      "feature": "num_percent",
+      "importance": 0.0
+    },
+    {
+      "feature": "has_double_slash_path",
+      "importance": 0.0
+    }
+  ],
+  "split_summary": {
+    "train_samples": 34836,
+    "val_samples": 6631,
+    "test_samples": 8533,
+    "total_samples": 50000
+  },
+  "candidate_comparison": {
+    "random_forest": {
+      "accuracy": 0.9395,
+      "precision": 0.9608,
+      "recall": 0.8944,
+      "f1": 0.9264,
+      "roc_auc": 0.9783,
+      "confusion_matrix": [
+        [
+          3706,
+          103
+        ],
+        [
+          298,
+          2524
+        ]
+      ]
+    },
+    "logistic_regression": {
+      "accuracy": 0.9079,
+      "precision": 0.9317,
+      "recall": 0.8455,
+      "f1": 0.8865,
+      "roc_auc": 0.9494,
+      "confusion_matrix": [
+        [
+          3634,
+          175
+        ],
+        [
+          436,
+          2386
+        ]
+      ]
+    }
+  }
+}
